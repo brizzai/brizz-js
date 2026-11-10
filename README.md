@@ -7,9 +7,11 @@ Release notes for the [Brizz](https://brizz.ai) JavaScript SDKs:
 | [`@brizz/sdk`](https://www.npmjs.com/package/@brizz/sdk) | Node.js / TypeScript agents | [typescript/CHANGELOG.md](./typescript/CHANGELOG.md) |
 | [`@brizz/browser`](https://www.npmjs.com/package/@brizz/browser) | Product events from a web frontend | [browser/CHANGELOG.md](./browser/CHANGELOG.md) |
 
+`typescript/CHANGELOG.md` covers the newest `@brizz/sdk` line (npm tag `latest`). An older line that still gets releases has its own file, `typescript/CHANGELOG-<line>.md`, installed with the npm tag `latest-<line>`: for example [typescript/CHANGELOG-0.1.md](./typescript/CHANGELOG-0.1.md) for `@brizz/sdk@latest-0.1`.
+
 `@brizz/sdk` traces your AI agent — every conversation, LLM call and tool call — and `@brizz/browser` adds product events from your frontend. Both send to Brizz, the product analytics layer for AI agents.
 
-This repo holds the changelogs and a GitHub release per published version (`sdk-v*` for `@brizz/sdk`, `browser-v*` for `@brizz/browser`). The SDK source is not published here.
+This repo holds the changelogs and a [GitHub release](https://github.com/brizzai/brizz-js/releases) per published version (`sdk-v<version>` for `@brizz/sdk`, `browser-v<version>` for `@brizz/browser`). The SDK source is not published here.
 
 ## Install
 
