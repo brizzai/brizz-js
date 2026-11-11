@@ -1,5 +1,16 @@
 # @brizz/sdk
 
+## 0.2.1
+
+### Patch Changes
+
+- On AI SDK 7, Brizz traces calls with `@ai-sdk/otel`'s `OpenTelemetry` integration (OpenTelemetry
+  GenAI semantic conventions).
+- `disableAiSdkCollector` turns off Brizz's AI SDK collector, for apps that register their own
+  `@ai-sdk/otel` collector.
+- Pass `instrumentModules: { ai, aiOtel }` to trace AI SDK calls made immediately after
+  `Brizz.initialize()`.
+
 ## 0.2.0
 
 ### Minor Changes
