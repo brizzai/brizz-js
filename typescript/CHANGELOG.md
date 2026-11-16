@@ -1,5 +1,12 @@
 # @brizz/sdk
 
+## 0.2.3
+
+### Patch Changes
+
+- Supports `@google/genai` 3.x.
+- AI SDK approval pauses are reported when Brizz runs inside your own tracer provider.
+
 ## 0.2.2
 
 ### Patch Changes
