@@ -1,5 +1,11 @@
 # @brizz/sdk
 
+## 0.2.2
+
+### Patch Changes
+
+- More precise PII masking: decimal numbers are left intact.
+
 ## 0.2.1
 
 ### Patch Changes
