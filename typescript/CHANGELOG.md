@@ -1,5 +1,14 @@
 # @brizz/sdk
 
+## 0.2.4
+
+### Patch Changes
+
+- Trace agents built with the Claude Agent SDK (`@anthropic-ai/claude-agent-sdk`): call `query()`
+  from the module `instrumentClaudeAgentSDK` returns, from the new `@brizz/sdk/claude-agent-sdk`
+  entry point.
+- Claude Agent SDK: subagents also record what they were asked and what they answered.
+
 ## 0.2.3
 
 ### Patch Changes
