@@ -1,5 +1,11 @@
 # @brizz/sdk
 
+## 0.1.62
+
+### Patch Changes
+
+- AI SDK approval pauses are reported when Brizz runs inside your own tracer provider.
+
 ## 0.1.61
 
 ### Patch Changes
